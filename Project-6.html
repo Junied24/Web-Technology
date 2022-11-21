@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(123, 93, 151);
+        }
+        #parent{
+            height: 400px;
+            width: 600px;
+            border: 1px solid;
+            background-color: black;
+            display:flex;
+            margin-left: 50px;
+            margin: auto;
+            border-radius: 10px;
+            margin-top: 50px;
+            
+        }
+        #child{
+            height: 400px;
+            width: 300px;
+            background-image: url(./Image/butterfly-g675cf0580_640.jpg);
+            background-repeat: no-repeat;
+            background-position: 70%;
+            border-radius: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="parent">
+        <div class="box" id="child"></div>
+        <form style="margin-left:20px;" action="">
+            <h2 style="color: white;"><u>Registation Info</u></h2>
+            <input type="text" name="" id="" placeholder="Name">
+            <br><br>
+            <input type="date" name="" id="" placeholder="Date of Birth">
+            <br><br>
+            <input type="email" name="" id="" placeholder="Email ID">
+            <br><br>
+                <select name="Gender" id="">
+                    <option value="">Gender</option>
+                    <option value="">Male</option>
+                    <option value="">Female</option>
+                </select>
+                <br><br>
+                <input type="number" name="" id="" placeholder="Contact No.">
+                <br><br>
+                <button type="submit" style="border-radius:20%;background-color: green;">Submit</button>
+    </div>
+</body>
+</html>
